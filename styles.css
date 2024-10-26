@@ -273,12 +273,12 @@ img {
 .skills__container {
   row-gap: 2rem;
   text-align: center;
-  transition: all 0.3s ease-out;
+ 
 }
 .skills__container:hover {
   row-gap: 2rem;
   text-align: center;
-  transform: scale(1.05);
+ 
 }
 .skills__subtitle {
   margin-bottom: var(--mb-2);
@@ -346,7 +346,9 @@ img {
 .skills__py {
   width: 75%;
 }
-zzzz
+.skills__img {
+  border-radius: 0.5rem;
+}
 
 /* ===== WORK =====*/
 .work__container {
